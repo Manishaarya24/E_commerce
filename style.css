@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1% 0%;
+    width: 100%;
+}
+select{
+    border: 1px solid white;
+    color:grey;
+}
+.grey{
+    border: 1px solid rgb(231, 227, 227);
+    width: 28px;
+    height: 28px;
+    background-color:rgb(231, 227, 227) ;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 10px;
+    margin-right: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.commerece{
+    padding: 2% 0%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    color: rgb(248, 81, 109);
+}
+.heading{
+    font-size: 2.5em;
+    width: 30%; 
+}
+.input_box{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    width: 55%;
+    align-items: center;
+    height: 40px;
+}
+.shopping_icon {
+    display: none;
+    display: flex;
+}
+.wrapper{
+    border-bottom: 1px solid rgb(129, 127, 127);
+}
+.input_box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    width: 100%;
+    height: 30px;
+}
+#a{
+    border: none;
+    background-color:white ;
+}
+#b{
+    border: none;
+    background-color:white ;
+}
+#c{
+    border: none;
+    background-color:white ;
+}
+.input_box i{
+    border: none;
+    background-color:white;
+    position:relative;
+    bottom: 50%;
+    left: 90%;
+}
+.nav_bar ul li {
+    display: inline-block;
+    margin: 1% 2.5%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.banner_rin{
+    background-image: url(banner-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.trending{
+    font-size: 40px;
+    margin: 5px;
+}
+.womens{
+    font-size: 60px;
+}
+.starting{
+    font-size: 50px;
+    margin: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(252, 123, 142);
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+}
+.rins{
+    width: 100%;
+    padding: 5%;
+}
+.small_box{
+    border: 1px solid black;
+    width: 300px;
+    height: 80px;
+}
+.dresses{
+    width: 60px;
+}
+.svg_icon{
+    border: 1px solid rgb(166, 163, 163);
+    width: 300px;
+    height: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+.wrap_dress{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-around;
+    margin: 40px;
+}
+.second_dress{
+    display: flex;
+    justify-content: center;
+}
+.top_text{
+    margin-top: 30px;
+}
+.dress{
+    font-weight: bold;
+}
+.show{
+    color: rgb(255, 183, 195);
+}
+
+.aside_bar{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+.flex{
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+    width: 90%;
+}
+.pink{
+    width: 40px;
+}
+.cloth{
+    position: relative;
+    right: 25%;
+    text-align: center;
+}
+
+.mini_one{
+    border: 1px solid black;
+    width: 250px;
+    height: 80px;
+    margin-bottom: 7%;
+}
+.dresing{
+    width: 70px;
+}
+.main{
+    display: flex;
+}
+hr{
+    width: 250px;
+}
+
+.mani_wrap{
+    display: flex;
+    margin-top: 3%;
+}
+.para{
+    margin: 0% 3%;
+}
+.book{
+    width: 30%;
+}
+.bist{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 5%;
+}
+.para_one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .horizontal{
+    width: 100%;
+} */
+.shammpoo{
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+.wap{
+    display: flex;
+    justify-content: space-between;
+}
+.shampu{
+    border: 1px solid rgb(125, 120, 120);
+    margin: 3% 3%;
+    width: 94%;
+}
+.dimple{
+    font-size: 20px;
+   margin-top: 8%;
+}
+.jacket{
+    width: 95%;
+}
+.frock{
+    border: 1px solid black;
+    margin: 2%;
+    width: 20%;
+}
+.frock:hover{
+    box-shadow:  6px 6px 12px #3b3951,
+             -6px -6px 12px #ffffff;
+}
+
+
+.boats{
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid black;
+    width: 100%;
+}
+.mains_wrapper{
+    width: 100%;
+}
+.testimonal{
+    /* width: 50%; */
+    /* height: 100%; */
+    border: 1px solid black;
+    margin: 1%;
+    align-items: center;
+    text-align: center;
+}
+.testi{
+    border-radius: 70%;
+}
+.mini_four{
+    background-image: url(cta-banner.jpg);
+    width: 46%;
+}
+
+.services{
+    border: 1px solid black;
+    width: 24%;
+}
+.bottomtext{
+    display: flex;
+    margin: 2%;
+}
+.last_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.middle{
+    width: 50%;
+    height: 60%;
+    margin: 15% 19%;
+    border: 1px solid black;
+    background-color: rgb(243, 245, 246,0.6);
+}
+.textforpic{
+    text-align: center;
+    margin: 9%;
+}
+.discount{
+    width: 50%;
+    height: 40%;
+    border: 1px solid black;
+    background-color: rgb(4, 3, 3,0.4);
+    border-radius: 5%;
+    margin-left: 20%;
+}
+
+.cards{
+    width: 90%;
+    border-radius: 6%;
+}
+
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    width: 90%;
+}
+.girl{
+    width: 27%;
+}.one_card {
+    width: 25%;
+}
+
+
+
+ul li{
+    display: flex;
+}
+.sectioning{
+    background: #000;
+}
+
+.footer_one{
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer{
+    width: 20%;
+}
+footer{
+    background: #000;
+}
+.extlast {
+    text-align: center;
+}
+
+.navbarbottom{
+    text-align: center;
+    display: none;
+}

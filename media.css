@@ -1,0 +1,82 @@
+@media screen and (max-width: 800px) {
+    .social_icons{
+        display: none;
+    }
+    .shopping_icon{
+        display: none;
+    }
+    .heading {
+        font-size: 2.5em;
+        width: 40%;
+    }
+    .banner_rin {
+        background-image: url(banner-1.jpg);
+        background-size: contain;
+        width: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+    }
+    .rins {
+        width: 60%;
+        /* padding: 5%; */
+    }
+    .womens {
+        font-size: 30px;
+    }
+    .starting {
+        font-size: 30px;
+        margin: 10px;
+    }
+    nav {
+        display: none;
+    }
+    .wrap_dress {
+        display: flex;
+        /* justify-content: center; */
+        /* justify-content: space-around; */
+        justify-content: space-around;
+        margin: 10px;
+    }
+    .aside_bar {
+        border: 1px solid black;
+        width: 25%;
+        height: 100%;
+        position: sticky;
+        top: 0;
+        display: none;
+    }
+    .para_one {
+        /* display: flex; */
+        width: 100%;
+    }
+    .para {
+        margin: 0% 0%;
+        width: 42%;
+        padding: 5%;
+    }
+    .frock{
+        width: 45%;
+    }
+    .last_row {
+        width: 96%;
+    }
+    .girl{
+        width: 100%;
+    }
+    .mini_four {
+        width: 100%;
+    }
+    .services {
+        width: 50%;
+        margin: auto;
+    }
+    .one_card{
+        width: 50%;
+    }
+    .hide_card{
+        display: none;
+    }
+    .footer{
+        width: 30%;
+    }
+}
